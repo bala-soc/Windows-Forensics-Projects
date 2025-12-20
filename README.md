@@ -32,7 +32,7 @@ The Windows Registry is a critical hierarchical database that stores low-level s
 
 ---
 
-### 3. Forensic Analysis of Windows File Systems and Artifacts
+### 3. [Forensic Analysis of Windows File Systems and Artifacts](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/3.%20Forensic%20Analysis%20of%20Windows%20File%20Systems%20and%20Artifacts.md)
 Windows file systems and artifacts contain valuable information that can be crucial during forensic investigations.
 
 **Key Focus Areas:**
