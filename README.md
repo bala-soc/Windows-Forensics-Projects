@@ -56,7 +56,7 @@ Web browsers store a wealth of information about user activities, including hist
 
 ---
 
-### 5. Recovering and Analyzing Deleted Files on Windows Systems
+### 5. [Recovering and Analyzing Deleted Files on Windows Systems](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/5.%20Recovering%20and%20Analyzing%20Deleted%20Files%20on%20Windows%20Systems.md)
 Deleted files can still contain valuable information for forensic investigations. Recovering and analyzing these files can provide critical evidence of user activities or malicious actions.
 
 **Key Focus Areas:**
