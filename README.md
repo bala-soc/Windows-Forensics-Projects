@@ -44,7 +44,7 @@ Windows file systems and artifacts contain valuable information that can be cruc
  
 ---
 
-### 4. Extracting and Interpreting Browser Artifacts on Windows
+### 4. [Extracting and Interpreting Browser Artifacts on Windows](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/4.%20Extracting%20and%20Interpreting%20Browser%20Artifacts%20on%20Windows.md)
 Web browsers store a wealth of information about user activities, including history, cookies, cache, and download records.
 
 **Key Focus Areas:**
