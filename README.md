@@ -20,7 +20,7 @@ Windows Event Logs are a crucial source of information for identifying and inves
 
 ---
 
-### 2. Analyzing Windows Registry for Evidence of Malicious Activity
+### 2. [Analyzing Windows Registry for Evidence of Malicious Activity](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/2.%20Analyzing%20Windows%20Registry%20for%20Evidence%20of%20Malicious%20Activity.md)
 The Windows Registry is a critical hierarchical database that stores low-level settings for the operating system and installed applications.
 
 **Key Focus Areas:**
