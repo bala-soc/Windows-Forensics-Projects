@@ -8,7 +8,7 @@ The goal of this repository is to demonstrate practical SOC Analyst (L1) forensi
 
 ## 📁 Projects Included
 
-### 1. Investigating Windows Event Logs for Security Incidents
+### 1. [Investigating Windows Event Logs for Security Incidents](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/1.%20Investigating%20Windows%20Event%20Logs%20for%20Security%20Incidents.md)
 Windows Event Logs are a crucial source of information for identifying and investigating security incidents.
 
 **Key Focus Areas:**
