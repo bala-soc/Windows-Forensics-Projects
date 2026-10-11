@@ -1,8 +1,8 @@
 # Windows Forensics Projects
 
-**Focus:** Windows Event Logs • Registry and file-system artifacts • Evidence collection • Incident investigation
+**Focus:** Windows artifacts • Evidence collection • Timeline reconstruction • Incident investigation
 
-This repository contains learning exercises on Windows artifacts that may help an analyst reconstruct user and system activity. Use each write-up to understand the method and document your own verified results.
+A collection of Windows forensic exercises relevant to endpoint investigations and SOC workflows.
 
 ## Project Index
 1. [Windows Event Log Investigation](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/1.%20Investigating%20Windows%20Event%20Logs%20for%20Security%20Incidents.md)
@@ -11,16 +11,15 @@ This repository contains learning exercises on Windows artifacts that may help a
 4. [Browser Artifact Analysis](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/4.%20Extracting%20and%20Interpreting%20Browser%20Artifacts%20on%20Windows.md)
 5. [Deleted-File Recovery and Analysis](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/5.%20Recovering%20and%20Analyzing%20Deleted%20Files%20on%20Windows%20Systems.md)
 
-## Skills Demonstrated
-- Navigating and filtering Windows event logs
-- Reviewing registry and file-system artifacts
-- Building timelines from multiple evidence sources
-- Recording findings and forensic limitations
-
-## Case Report Structure
-For each completed case, include: objective, lab environment, evidence source, acquisition steps, tools and versions, timestamps/time zone, key artifacts, findings, limitations, and conclusion. Include only evidence from work you actually performed.
+## Investigation Workflow
+- Define the question and evidence source.
+- Record the environment, tools, versions, timestamps, and time zone.
+- Examine relevant event logs, registry entries, file-system metadata, or browser artifacts.
+- Build a timeline and correlate evidence across sources.
+- Explain the finding, confidence, limitations, and next investigative step.
 
 ## Tools
 Windows Event Viewer, PowerShell, FTK Imager, Autopsy, Volatility, and other artifact-analysis tools where applicable.
 
-> Work with authorised lab data. Never publish passwords, cookies, private user data, or unredacted forensic images.
+## Safe Practice
+Use authorised lab data. Do not publish passwords, cookies, private user data, or unredacted forensic images.
