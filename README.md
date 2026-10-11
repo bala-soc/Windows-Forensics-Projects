@@ -1,100 +1,24 @@
 # Windows Forensics Projects
 
-This repository contains a collection of hands-on projects focused on Windows forensics.
+Windows artifact and evidence-collection exercises relevant to security investigations and incident response.
 
-The goal of this repository is to demonstrate practical SOC Analyst (L1) forensic analysis skills on Windows systems, with a focus on incident investigation, evidence collection, and threat detection using real-world artifacts.
+## Projects
+1. [Windows Event Log Investigation](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/1.%20Investigating%20Windows%20Event%20Logs%20for%20Security%20Incidents.md)
+2. [Windows Registry Analysis](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/2.%20Analyzing%20Windows%20Registry%20for%20Evidence%20of%20Malicious%20Activity.md)
+3. [Windows File-System and Artifact Analysis](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/3.%20Forensic%20Analysis%20of%20Windows%20File%20Systems%20and%20Artifacts.md)
+4. [Browser Artifact Analysis](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/4.%20Extracting%20and%20Interpreting%20Browser%20Artifacts%20on%20Windows.md)
+5. [Deleted-File Recovery and Analysis](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/5.%20Recovering%20and%20Analyzing%20Deleted%20Files%20on%20Windows%20Systems.md)
 
----
+## Skills Covered
+- Collecting and reviewing Windows event logs
+- Examining registry, file-system, and browser artifacts
+- Building timelines by correlating multiple evidence sources
+- Recording findings and acknowledging forensic limitations
 
-## 📁 Projects Included
+## Investigation Report Checklist
+For each completed exercise, record the objective, evidence source, acquisition steps, relevant artifacts, tool/version, timestamps and time zone, findings, limitations, and conclusion. Include screenshots or sample output only when they reflect actual analysis.
 
-### 1. [Investigating Windows Event Logs for Security Incidents](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/1.%20Investigating%20Windows%20Event%20Logs%20for%20Security%20Incidents.md)
-Windows Event Logs are a crucial source of information for identifying and investigating security incidents.
+## Tools
+Windows Event Viewer, PowerShell, FTK Imager, Autopsy, Volatility, and relevant artifact-analysis tools.
 
-**Key Focus Areas:**
-- Accessing Windows Event Logs using Event Viewer
-- Filtering and Exporting Event Logs
-- Parsing Event Logs using Log Parser
-- Analyzing Event Logs using PowerShell
-- Correlating Events for Comprehensive Analysis
-
----
-
-### 2. [Analyzing Windows Registry for Evidence of Malicious Activity](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/2.%20Analyzing%20Windows%20Registry%20for%20Evidence%20of%20Malicious%20Activity.md)
-The Windows Registry is a critical hierarchical database that stores low-level settings for the operating system and installed applications.
-
-**Key Focus Areas:**
-- Extracting Windows Registry Hives from a Memory Image
-- Analyzing the SAM Hive for User Information
-- Investigating Autorun Entries in the Software Hive
-- Examining User Assist Keys in the NTUSER.DAT Hive
-- Correlating Registry Artifacts for Comprehensive Analysis
-
----
-
-### 3. [Forensic Analysis of Windows File Systems and Artifacts](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/3.%20Forensic%20Analysis%20of%20Windows%20File%20Systems%20and%20Artifacts.md)
-Windows file systems and artifacts contain valuable information that can be crucial during forensic investigations.
-
-**Key Focus Areas:**
-- Creating a Forensic Image using FTK Imager
-- Analyzing File System with Autopsy
-- Extracting and Analyzing MFT (Master File Table)
-- Analyzing Windows Prefetch Files
-- Investigating Recent Activity using Shellbags
- 
----
-
-### 4. [Extracting and Interpreting Browser Artifacts on Windows](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/4.%20Extracting%20and%20Interpreting%20Browser%20Artifacts%20on%20Windows.md)
-Web browsers store a wealth of information about user activities, including history, cookies, cache, and download records.
-
-**Key Focus Areas:**
-- Extracting Browser History
-- Recovering Stored Passwords
-- Analyzing Browser Cookies
-- Examining Browser Cache
-- Interpreting Download Records
-
----
-
-### 5. [Recovering and Analyzing Deleted Files on Windows Systems](https://github.com/bala-soc/Windows-Forensics-Projects/blob/main/5.%20Recovering%20and%20Analyzing%20Deleted%20Files%20on%20Windows%20Systems.md)
-Deleted files can still contain valuable information for forensic investigations. Recovering and analyzing these files can provide critical evidence of user activities or malicious actions.
-
-**Key Focus Areas:**
-- Recovering Deleted Files using Recuva
-- Creating a Forensic Image of the Disk using FTK Imager
-- Analyzing Deleted Files using Autopsy
-- Examining Metadata of Recovered Files
-- Correlating Recovered Files with System Events
-
----
-
-## 🎯 Objective
-The objective of this repository is to:
-- To understand Windows forensic artifacts and their role in security investigations
-- To investigate security incidents using Windows logs and system artifacts
-- To identify malicious activities, persistence mechanisms, and user behavior
-- To gain practical experience in incident analysis and evidence collection
-- To build SOC Analyst L1–level investigation skills through hands-on exercises
-
----
-
-## 🧰 Tools Used
-
-### 🔹 Built-in Windows Tools
-- **Event Viewer** – Analyze security, system, and application logs  
-- **PowerShell** – Automate log analysis and artifact extraction   
-
-### 🔹 Forensic & Analysis Tools
-- **Log Parser** – Parse and analyze Windows Event Logs
-- **Volatility** – An advanced memory forensics framework 
-- **FTK Imager** – Acquire and analyze disk images and files
-- **Autopsy** – Perform file system and deleted file analysis
-- **Windows File Analyzer** – A tool to analyze various Windows artifacts
-- **Recuva** – A tool for recovering deleted files   
-
-### 🔹 Browser Forensics Tools
-- **WebBrowserPassView** – A tool to recover passwords stored in we browsers.
-- **BrowserHistoryViewer** – Analyze browsing history and downloads  
-- **SQLite Browser** – Examine browser database files  
-
----
+> Handle evidence in an authorised lab. Do not publish real credentials, browser cookies, private user data, or unredacted forensic images. Never describe a planned or tutorial-only step as a completed investigation.
